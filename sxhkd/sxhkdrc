@@ -2,6 +2,24 @@
 # wm independent hotkeys
 #
 
+# volume
+Auido mute
+	lam mute
+
+Auido lower volume
+	lam down 5
+
+Auido raise volume
+	lam up 5
+
+# brightness
+
+Monitor brightness down
+	lbm
+
+Wake up
+	lbm 1.0
+
 # terminal emulator
 super + Return
     alacritty
