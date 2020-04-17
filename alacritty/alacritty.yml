@@ -100,19 +100,22 @@
 #tabspaces: 8
 
 # Font configuration
-#font:
-  # Normal (roman) font face
-  #normal:
+font:
+  normal:
+    family: FiraMono
+    style: Regular
+  #Normal (roman) font face
+   #normal:
     # Font family
     #
-    # Default:
+    #     Default:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    #family: monospace
+    #family: FiraMono 
 
     # The `style` can be specified to pick a specific face.
-    #style: Regular
+    #    style: Regular
 
   # Bold font face
   #bold:
@@ -184,7 +187,6 @@
 
 # Colors (Dracula)
 colors:
-
     primary:
         background: '0x282a36'
         foreground: '0xf8f8f2'
@@ -315,7 +317,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-#background_opacity: 1.0
+background_opacity: 0.8
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
