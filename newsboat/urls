@@ -1,0 +1,32 @@
+"--REDDIT--"
+https://www.reddit.com/r/MechanicalKeyboards.rss "~Mechanical Keyboards"
+https://www.reddit.com/r/linux.rss "~Linux"
+https://www.reddit.com/r/Coffee.rss
+https://www.reddit.com/r/Python.rss
+https://www.reddit.com/r/datascience.rss
+https://waitbutwhy.com/feed
+"--YOUTUBE--"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA
+"--BLOGS--"
+http://rss.sciam.com/ScientificAmerican-Global
+https://zenhabits.net/feed
+https://planet.gnu.org/rss20.xml
+https://waitbutwhy.com/feed
+https://www.theminimalists.com/feed
+https://fs.blog/feed/
+https://www.archlinux.org/feeds/packages/ "~Arch Linux: Packages"
+https://www.archlinux.org/feeds/news/ "~Arch Linux: News"
+"--GITHUB--"
+https://github.com/chrislgarry/Apollo-11/commits/master.atom
+https://github.com/r-spacex/SpaceX-API/commits/master.atom
+https://github.com/rust-lang/rust/commits/master.atom
+https://github.com/alacritty/alacritty/commits/master.atom
+"--TWITTER--"
+https://nitter.net/PKU1898/rss
+https://nitter.net/Tsinghua_Uni/rss
+https://nitter.net/austin_DSA/rss
+https://nitter.net/SenSanders/rss
+https://nitter.net/AOC/rss
+https://nitter.net/NASA/rss
