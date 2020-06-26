@@ -168,5 +168,5 @@ feh --bg-fill ~/.config/bspwm/gnuwallpaper.jpg
 ## or polybar?
 #pkill polybar
 #polybar -c ~/.config/bspwm/polybar top &
-~/.config/polybar/launch.sh
+polybar example &
 xinput set-prop 11 "Device Enabled" 0
