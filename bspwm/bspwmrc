@@ -164,9 +164,11 @@ panel-bspwm &
 # bspc monitor DP-1 -d I II 
 # bspc monitor VGA-1 -d V VI
 
-feh --bg-fill ~/.config/bspwm/gnuwallpaper.jpg
 ## or polybar?
 #pkill polybar
 #polybar -c ~/.config/bspwm/polybar top &
-polybar example &
-xinput set-prop 11 "Device Enabled" 0
+nitrogen --restore
+~/.config/polybar/launch.sh
+xinput set-prop 12 311 1
+xinput set-prop 12 330 1
+xinput set-prop 12 319 1

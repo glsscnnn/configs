@@ -2,31 +2,13 @@
 # wm independent hotkeys
 #
 
-# volume
-Auido mute
-	lam mute
-
-Auido lower volume
-	lam down 5
-
-Auido raise volume
-	lam up 5
-
-# brightness
-
-Monitor brightness down
-	lbm
-
-Wake up
-	lbm 1.0
-
 # terminal emulator
 super + Return
-    alacritty
+	terminator
 
 # program launcher
 super + @space
-	dmenu_run
+	rofi -show drun
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -137,3 +119,6 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+super + {0,1,2,3,4,5,6,7,8,9}
+    bscp desktop -f {0,1,2,3,4,5,6,7,8,9}	
