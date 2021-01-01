@@ -1,0 +1,24 @@
+- Setup git
+    - install
+    - configure
+    - add ssh
+
+- Setup vim
+    - add ~/.config/nvim.init
+    - install vim-plugged
+    - :PlugInstal
+    - :CocConfig
+        - Haskell Language Server
+        - coc-tsserver coc-json
+        - Python Language Server
+
+- Window Managers
+    - dwm
+        - build d7f 
+        - remove display manager
+        - exec dwm in ~/.xinitrc
+    - bspwm
+	- come back later when I decide to write this
+    - xmonad
+	- install xmonad
+	- copy xmonad.hs and xmobarrc into .xmonad
