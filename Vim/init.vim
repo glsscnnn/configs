@@ -1,17 +1,23 @@
 call plug#begin()
+
 Plug 'preservim/nerdtree'
-Plug 'dylanaraps/wal.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sbdchd/neoformat'
 Plug 'tpope/vim-projectionist'        
+
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+
 Plug 'noahfrederick/vim-composer'     
 Plug 'noahfrederick/vim-laravel'
+
 Plug 'dracula/vim'
-Plug 'sbdchd/neoformat'
+Plug 'dylanaraps/wal.vim'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
-colorscheme wal
+colorscheme gruvbox
 hi Normal guibg=NONE ctermbg=NONE
 
 function! s:check_back_space() abort
