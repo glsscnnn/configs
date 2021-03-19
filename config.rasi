@@ -1,0 +1,6 @@
+configuration {
+  modi: "window,ssh,combi";
+  theme: "~/.cache/wal/colors-rofi-dark";
+  font: "Fira Mono 12";
+  combi-modi: "window,drun,ssh";
+}
